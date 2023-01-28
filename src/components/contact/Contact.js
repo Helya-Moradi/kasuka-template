@@ -4,7 +4,6 @@ import TitleTemplate from '../titleTemplate/TitleTemplate'
 import ContactInfo from './contactInfo/ContactInfo'
 import Button from '../button/Button'
 import {FaPhone,FaGetPocket,FaLocationArrow} from "react-icons/fa";
-import Map from './map/Map'
 
 export default function Contact() {
   return (
