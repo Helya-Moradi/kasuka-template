@@ -1,0 +1,20 @@
+.servicesContainer{
+   width: 100%;
+   max-width: 1180px;
+   padding: 0 20px;
+   margin: 70px auto;
+}
+
+.services{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+@media screen and (max-width:500px) {
+    .servicesTitle{
+        font-size: 25px;
+    }
+}

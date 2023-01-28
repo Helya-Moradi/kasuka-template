@@ -1,0 +1,41 @@
+.featuresContainer{
+    display: flex;
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 20px;
+    margin: 80px auto;
+    gap: 25px;
+}
+
+.featuresImage{
+   width: 50%;
+}
+
+.featuresDescribe{
+    width: 50%;
+}
+
+@media screen and (max-width:992px) {
+    .featuresContainer{
+        flex-direction: column;
+    }
+    
+    .featuresImage{
+       width: 100%;
+    }
+    
+    .featuresDescribe{
+        width: 100%;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .featuresContainer{
+        padding: 0 15px;
+     }
+
+     .featuresDescribe{
+        padding: 10px;
+    }
+}

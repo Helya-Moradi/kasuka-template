@@ -1,0 +1,26 @@
+.teamsContainer {
+    width: 100%;
+    max-width: 1180px;
+    padding: 60px 20px;
+    margin: auto;
+}
+
+.teams {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+@media screen and (max-width:919px) {
+    .teams{
+       display: block;
+       column-count: 2;
+    }
+}
+
+@media screen and (max-width:634px) {
+    .teams{
+       column-count: 1;
+    }
+}

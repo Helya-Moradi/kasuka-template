@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'irsans';
+    src: url(../../../public/fonts/FontsFree-Net-ir_sans.ttf);
+}
+
+.btn {
+    font-family: 'irsans';
+    padding: 6px 21px;
+    border-radius: 5px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.navBtn{
+    background-color:transparent;
+    border: 2px solid #ffc451;
+    color: #fff;
+}
+
+.navBtn:hover{
+    color: #000;
+    background-color: #ffc451;
+}
+
+.btnText{
+    margin: 0;
+}
+
+.btnText a{
+    text-decoration: none;
+}
+
+.whiteBtn{
+    background-color:transparent;
+    border: 2px solid #ffffff;
+    color: #fff;
+}
+
+.whiteBtn:hover{
+    border: 2px solid #ffc451;
+    color: rgb(0, 0, 0);
+    background-color: #ffc451;
+}
+
+.yellowBtn{
+    color: #000;
+    background-color: #ffc451;
+    border: 2px solid #ffc451;
+}
+
+.upBtn{
+    color: #000;
+    background-color: #ffc451;
+    border: 2px solid #ffc451;
+    padding: 8px 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.noRadius{
+    border-radius: 5px 0 0 5px;
+}
+

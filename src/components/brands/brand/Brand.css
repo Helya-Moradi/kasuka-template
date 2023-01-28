@@ -1,0 +1,17 @@
+.brandImage{
+    width:90px;
+    filter:grayscale(1);
+    opacity: .5;
+    transition: .4s;
+}
+
+.brandImage:hover{
+    filter:grayscale(0);
+    opacity: 1;
+}
+
+@media screen and (max-width:500px) {
+    .brandImage{
+        width:60px;
+    }
+}

@@ -1,0 +1,12 @@
+.option{
+   margin: 14px 0;
+}
+
+.optionText{
+   font-size: 15px;
+}
+
+.optionIcon{
+   font-size: 20px;
+   color: #ffc451;
+}

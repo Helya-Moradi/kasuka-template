@@ -1,0 +1,25 @@
+.titleContainer{
+    /* width: 100%; */
+}
+
+.sevicesSeparator{
+    position: relative;
+    font-size: 14px;
+    color: rgb(167, 167, 167);
+ }
+ 
+ .sevicesSeparator::after{
+     position: absolute;
+     content: '';
+     width: 130px;
+     height: 1.2px;
+     background-color: #ffc451;
+     top: 11px;
+     /* right:0; */
+     /* left: 0; */
+     margin-right: 10px;
+ }
+ 
+ .servicesTitle{
+     font-size: 30px;
+ }

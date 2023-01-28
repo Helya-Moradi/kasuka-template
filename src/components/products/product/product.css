@@ -1,0 +1,63 @@
+.productContainer{
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+  margin-bottom: 7px;
+}
+
+.productContainer:hover .overlay{
+    display: flex;
+    visibility: visible;
+}
+
+.productContainer:hover .productImg{
+    transform: scale(1.2)
+}
+
+.overlay{
+    padding: 20px;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(33, 33, 33, 0.555);
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: end;
+    visibility: hidden;
+    display: none;
+}
+
+.overlayTitle{
+    
+}
+
+.overlayText{
+    font-size: 14px;
+   margin: 7px 0;
+   color: gainsboro;
+}
+
+.overlayIcons{
+    font-size: 25px;
+}
+
+.icon{
+    margin-left: 7px;
+    transition: .4s;
+}
+
+.icon:hover{
+    color: #ffc451;
+}
+
+.image{
+   width: 100%;
+}
+
+.productImg{
+    width: 100%;
+    transition: .6s;
+}

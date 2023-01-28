@@ -1,0 +1,48 @@
+.teamContainer{
+   position: relative;
+   border-radius: 8px;
+   overflow: hidden;
+   /* width: 260px; */
+   box-shadow: 1px 1px 12px gainsboro;
+   margin-bottom: 20px;
+}
+
+.teamImageContainer{
+   position: relative;
+}
+
+.teamImage{
+  width: 100%;
+}
+
+.overlaySocials{
+  padding: 25px;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  visibility: hidden;
+  opacity: 0;
+  transition: .7s;
+}
+
+.teamImageContainer:hover .overlaySocials{
+  visibility: visible;
+  opacity: 1;
+  bottom: 0;
+}
+
+.team{
+    padding: 14px;
+}
+
+.teamTitle{
+   font-size: 17px;
+} 
+
+.temaText{
+   font-size: 13px;
+   color: gray;
+}

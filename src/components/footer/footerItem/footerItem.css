@@ -1,0 +1,15 @@
+.footerItemContainer{
+   display: flex;
+   align-items: center;
+   margin-top: 15px;
+}
+
+.itemIcon{
+   font-size: 15px;
+   color: #ffc451;
+   margin-left: 3px;
+}
+
+.itemText{
+   font-size: 13px;
+}

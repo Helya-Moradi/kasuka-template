@@ -1,0 +1,51 @@
+.scoresContainer{
+   width: 100%;
+   max-width: 1180px;
+   padding: 60px 20px;
+   margin: auto;
+   display: flex;
+   gap: 40px;
+}
+
+.scoresImg{
+   width: 40%;
+}
+
+.scoresDescription{
+    width: 55%;
+}
+
+.describeText{
+  font-size: 14px;
+  color: rgb(66, 66, 66);
+  padding: 10px 0;
+}
+
+.scores{
+    column-count: 2;
+}
+
+@media screen and (max-width:1140px) {
+    .scoresContainer{
+        flex-direction: column;
+     }
+
+
+     .scoresImg{
+        width:100%;
+     }
+     
+     .scoresDescription{
+         width: 100%;
+     }
+}
+
+@media screen and (max-width:660px) {
+    .scoresContainer{
+        padding: 0 20px;
+     }
+
+    .scores{
+        column-count: 1;
+    }
+}

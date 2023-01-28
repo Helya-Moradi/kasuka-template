@@ -1,0 +1,29 @@
+.brandsContainer{
+    width: 100%;
+    max-width: 1180px;
+    margin: 20px auto;
+}
+
+.brands{
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.brandsCircle{
+     display: flex;
+     justify-content: center;
+} 
+
+.circle{
+    cursor: pointer;
+    font-size: 12px;
+    margin: 4px;
+    color: rgb(212, 212, 212);
+}
+
+.circle.active{
+    color: #ffc451;
+}

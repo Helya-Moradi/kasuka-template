@@ -1,0 +1,26 @@
+.featureContainer{
+   display: flex;
+   margin-bottom: 45px;
+}
+
+.featureIcon{
+    margin-left: 12px;
+    margin-top: 5px;
+    font-size: 45px;
+    color: #ffc451;
+}
+
+.featureDescribe{
+
+}
+
+.featureTitle{
+   font-size: 18px;
+   color: rgb(45, 45, 45);
+   margin-bottom: 3px;
+}
+
+.featureText{
+    font-size: 15px;
+    color: rgb(122, 122, 122);
+}

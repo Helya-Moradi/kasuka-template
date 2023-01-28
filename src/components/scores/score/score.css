@@ -1,0 +1,29 @@
+.scoreContainer{
+   width: 230px;
+   margin-bottom: 50px;
+}
+
+.scoreTitle{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+.scoreIco{
+  font-size: 35px;
+  color: #ffc451;
+}
+
+.scoreDescribe{
+    font-size: 13px;
+    color: rgb(63, 63, 63);
+    text-align: justify;
+}
+
+@media screen and (max-width:660px) {
+    .scoreContainer{
+        margin-top: 30px;
+        width: 80%;
+        margin-bottom: 50px;
+     }
+}

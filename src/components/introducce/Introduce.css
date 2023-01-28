@@ -1,0 +1,48 @@
+.ntroduceBg {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.715),rgba(0, 0, 0, 0.705)),url(../../../public/img/testimonials-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.introducContainer {
+    width: 100%;
+    max-width: 1180px;
+    padding: 100px 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.personImg {
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid rgba(128, 128, 128, 0.434);
+}
+
+.personName {
+    font-size: 18px;
+}
+
+.personJob {
+    font-size: 13px;
+    color: rgb(176, 176, 176);
+    margin-bottom: 20px;
+}
+
+.personDescribe {
+    font-size: 14px;
+    color: rgb(210, 210, 210);
+    width: 80%;
+    text-align: justify;
+}
+
+.quoteIco{
+    font-size: 22px;
+}

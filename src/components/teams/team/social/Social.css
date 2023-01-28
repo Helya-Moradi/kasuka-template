@@ -1,0 +1,27 @@
+.soacialContainer{
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .4s;
+  border-radius: 8px;
+}
+
+.soacialContainer:hover{
+  background-color: #ffc451;
+}
+
+.socialIcon{
+  font-size: 25px;
+}
+
+.whiteBg{
+  color: rgba(56, 56, 56, 0.895);
+  background-color: rgba(255, 255, 255, 0.826);
+}
+
+.darkBg{
+  background-color: rgba(56, 56, 56, 0.895);
+  color: rgba(255, 255, 255, 0.943);
+}

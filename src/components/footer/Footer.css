@@ -1,0 +1,80 @@
+.footerBg {
+    width: 100%;
+    background-color: #151515;
+    color: #fff;
+}
+
+.footerContainer {
+    width: 100%;
+    max-width: 1180px;
+    padding: 60px 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footerInfoLogo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footerInfoTitle {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.footerInfoImage {
+    width: 80px;
+}
+
+.footerInfoText {
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.footerInfoSocials {
+    display: flex;
+    gap: 8px;
+    margin: 16px 10px;
+}
+
+.list {
+    margin-right: 10px;
+}
+
+.newsText {
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.inputContainer {
+    display: flex;
+    width: 100%;
+}
+
+.newsInput {
+    border-radius: 0 5px 5px 0;
+    border: none;
+    outline: none;
+    padding: 7px;
+    width: 220px;
+}
+
+@media screen and (max-width:997px) {
+    .footerContainer {
+        flex-wrap: wrap;
+    }
+
+    .newsInput {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width:335px) {
+    .newsInput {
+        width: 130px;
+    }
+}

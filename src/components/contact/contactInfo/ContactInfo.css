@@ -1,0 +1,29 @@
+.infoContainer{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.infoIconContainer{
+  background-color: #ffc451;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.infoIcon{
+   font-size: 22px;
+}
+
+.infoTitle{
+   font-size: 20px;
+}
+
+.infoText{
+    font-size: 14px;
+    color: rgb(87, 87, 87);
+}

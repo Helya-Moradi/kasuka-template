@@ -1,0 +1,62 @@
+.contactContainer{
+    width: 100%;
+    max-width: 1180px;
+    padding: 30px 20px;
+    margin: auto;
+}
+
+.contactInfos{
+  display: flex;
+  justify-content: space-between;
+}
+
+.innerInfo{
+  width: 30%;
+  margin-top: 20px;
+}
+
+.formInfo{
+   width: 65%;
+   text-align: center;
+}
+
+.groupInputs{
+   display: flex;
+   gap: 18px;
+}
+
+.infoInput{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(205, 205, 205);
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.textAreaInput{
+  resize: vertical;
+  min-height: 120px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:686px) {
+    .contactInfos{
+        display: block;
+      }
+      
+      .innerInfo{
+        width: 100%;
+        margin-top: 20px;
+      }
+      
+      .formInfo{
+         width: 100%;
+         text-align: center;
+      }
+
+      .groupInputs{
+        display: block;
+     }
+}
+
