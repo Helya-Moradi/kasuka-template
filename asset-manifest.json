@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/kasuka-template/static/css/main.74a60137.css",
+    "main.js": "/kasuka-template/static/js/main.8a53756f.js",
+    "static/js/787.48c91228.chunk.js": "/kasuka-template/static/js/787.48c91228.chunk.js",
+    "static/media/testimonials-bg.jpg": "/kasuka-template/static/media/testimonials-bg.2cedb539c554cb13a1b6.jpg",
+    "static/media/cta-bg.jpg": "/kasuka-template/static/media/cta-bg.63b483a22e14db81b62a.jpg",
+    "static/media/hero-bg.jpg": "/kasuka-template/static/media/hero-bg.fa6c455cbec2a3f793f9.jpg",
+    "static/media/FontsFree-Net-ir_sans.ttf": "/kasuka-template/static/media/FontsFree-Net-ir_sans.b405362106aecf6bb79b.ttf",
+    "index.html": "/kasuka-template/index.html",
+    "main.74a60137.css.map": "/kasuka-template/static/css/main.74a60137.css.map",
+    "main.8a53756f.js.map": "/kasuka-template/static/js/main.8a53756f.js.map",
+    "787.48c91228.chunk.js.map": "/kasuka-template/static/js/787.48c91228.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74a60137.css",
+    "static/js/main.8a53756f.js"
+  ]
+}
