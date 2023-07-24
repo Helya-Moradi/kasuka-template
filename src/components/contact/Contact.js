@@ -4,11 +4,13 @@ import TitleTemplate from '../titleTemplate/TitleTemplate'
 import ContactInfo from './contactInfo/ContactInfo'
 import Button from '../button/Button'
 import {FaPhone,FaGetPocket,FaLocationArrow} from "react-icons/fa";
+import Map from './map'
 
 export default function Contact() {
   return (
     <div className='contactContainer'>
       <TitleTemplate type="تماس با ما" title="با ما تماس بگیرید"/>
+        <Map/>
       <div className="contactInfos">
         <div className="innerInfo">
           <ContactInfo title="مکان" text="تهران خیابان آزادی">

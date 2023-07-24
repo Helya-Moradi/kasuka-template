@@ -1,0 +1,28 @@
+.map{
+    height: 400px;
+    display: flex;
+    flex-grow: 1;
+    position: relative;
+    border-radius: .8rem;
+    margin: 2rem 0;
+}
+
+:global(.mapboxgl-canary), :global(.mapboxgl-control-container){
+ display: none;
+}
+
+.markerContainer{
+    position: relative;
+}
+
+.marker{
+    width: 2rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 0;
+    transform: translateX(-50%);
+    fill: red;
+}
+
+
