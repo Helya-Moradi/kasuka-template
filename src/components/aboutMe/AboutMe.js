@@ -1,6 +1,7 @@
 import React from 'react'
 import './AboutMe.css'
 import Option from './option/Option'
+import aboutus from '../../assets/img/about.jpg'
 
 export default function AboutMe() {
   return (
@@ -16,7 +17,7 @@ export default function AboutMe() {
         <p className="aboutText">خدمات نوآد در جهت یکپارچه سازی تمامی فعالیت های یک کسب و کار از مرحله ورود به بازار، ساخت، گسترش و ایجاد تصویری یکپاچه از برند، دیجیتال مارکتینگ، افزایش مزیت رقابتی و سهم بازار تا مراحل پس از فروش و ایجاد وفاداری در مشتریان یک برند ارایه می گردد.</p>
       </div>
       <div className="aboutImage">
-        <img src="./img/about.jpg" alt="aboutme" />
+        <img src={aboutus} alt="aboutme" />
       </div>
     </div>
   )

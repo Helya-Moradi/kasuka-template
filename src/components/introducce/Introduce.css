@@ -1,7 +1,7 @@
 .ntroduceBg {
     position: relative;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.715),rgba(0, 0, 0, 0.705)),url(../../../public/img/testimonials-bg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.715),rgba(0, 0, 0, 0.705)),url(../../assets/img/testimonials-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -2,11 +2,12 @@ import React from 'react'
 import './Navbar.css'
 import Button from '../../button/Button'
 import { HiMenu } from "react-icons/hi";
+import logo from '../../../assets/img/logo.png'
 
 export default function Navbar() {
   return (
     <div className='navContainer'>
-        <div className="logo"><span><img src="img/logo.png" alt="logo" className='logoImg'/></span>kasuka</div>
+        <div className="logo"><span><img src={logo} alt="logo" className='logoImg'/></span>kasuka</div>
         <nav className="navbar">
             <ul className="navList"> 
                 <li className="navItem active">خانه</li>
